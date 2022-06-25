@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="top" style="width: auto;">
+<table value="{{hh}}" style="background-color: aqua;text-align: center;width: auto;">
+</table>
+</view>
+<view>
+<button bindtap="getNum" type="primary">生成号码</button>
+</view>

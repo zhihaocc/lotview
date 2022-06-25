@@ -1,0 +1,15 @@
+<!--pages/mine/mine.wxml-->
+  <view class="me_operation">
+      <navigator url="/pages/me_fabu/me_fabu">
+        <view>
+          <text class="iconfont icon-wodefabu"></text>
+          <text style="margin-left:10rpx;">我的收藏</text>
+        </view>
+      </navigator>
+      <navigator url="/pages/me_canyu/me_canyu">
+        <view>
+          <text class="iconfont icon-wocanyude"></text>
+          <text style="margin-left:10rpx;">我的已购</text>
+        </view>
+      </navigator>
+  </view>

@@ -1,0 +1,23 @@
+/* pages/mine/mine.wxss */
+.me_operation {
+    margin-top: 20rpx;
+  }
+  
+  .me_operation view {
+    
+    height: 50rpx;
+    line-height: 50rpx;
+    background-color: rgba(245, 236, 236, 0.904);
+    margin-top: 2rpx;
+    padding: 20rpx;
+    font-size: 33rpx;
+    font-weight: 200;
+    letter-spacing: 10rpx;
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 33rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
