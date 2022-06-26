@@ -1,17 +1,18 @@
 // index.js
 Page({
     data:{
-        hh:"展示号码"
+        hh:""
     },
     getNum:function(){
         return new Promise((resolve,reject)=>{
         wx.request({
-            url: 'http://172.18.10.145:2022/index/getNumber',
+            url: 'http://127.0.0.1:2022/index/getNumber',
             method:'GET',
+            data:{"type":2,"listNum":1},
+            dataType:"json",
             success:(res)=>{
-              console.log(res.data)
               this.setData({
-                  hh:res.data
+                  hh:res.data.data
               })
             },
             fail:(error)=>{	
